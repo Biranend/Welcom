@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+:root{
+    --blanc:#FFF;
+    --noir: #000;
+    --gold: #ffd700;
+    --orange: #f3c808;
+    --grisText: #adadab;
+    --grisText1: #70706f;
+    --grisContainer: #e2e2e0;
+
+}
+*{
+    padding: 10px;
+    margin: 0;
+    text-decoration: none;
+}
+
+
+header{
+    background-image: url('../Images/BackgroundImage.png');
+    height: 100vh;
+}
+nav h1{
+    font-size: 50px;
+    padding-left: 80px;
+    color: var(--gold);
+    font-family: Great Vibes;
+}
+nav ul{
+    padding-right: 90px;
+    
+}
+nav ul li a{
+    color: var(--blanc);
+    text-decoration: none;
+}
+nav ul li a:hover{
+    background-color: var(--blanc);
+    color: var(--noir);
+    border-radius: 7px;
+}
+.HeCenter{
+    text-align: center;
+    color: var(--blanc);
+    position: relative;
+    top: 150px;
+}
+.HeCenter h3{
+    font-size: 40px;
+    font-family: Courgette;
+}
+.HeCenter h1{
+    font-size: 70px;
+    font-weight: bold;
+}
+.HeCenter a{
+    display: inline-block;
+    text-decoration: none;
+    color: var(--blanc);
+    border-radius: 7px;
+    background-color: var(--gold);
+    width: 250px;
+    font-size: 25px;
+}
+.HeCenter a:hover{
+    color: var(--gold);
+    background-color: var(--blanc);
+    border-radius: 7px;
+}
+/*----------------------END HEADER------------------*/
+.service{
+    text-align: center;
+}
+section{
+    padding-top: 130px;
+}
+.service h1, p{
+    padding: 0;
+}
+.service h1{
+    font-weight: bold;
+    font-size: 40px;
+}
+.service p{
+    font-family: Courgette;
+    color: var(--grisText);
+}
+article{
+    text-align: center;
+}
+article h1{
+    font-size: 20px;
+    font-weight: bold;
+}
+article img{
+    border: 2px solid var(--gold);
+    border-radius: 50%;
+}
+/*-----------------------End main container-----------------*/
+#portfolio{
+    background-color: var(--grisContainer);
+    padding-bottom: 90px;
+}
+.tit{
+    font-weight: bold;
+    font-size: 37px;
+    padding-top: 90px;
+    padding-bottom: 0;
+}
+.soustit{
+    font-family: Courgette;
+    color: var(--grisText1);
+    padding-bottom: 50px;
+}
+.tit, .soustit{
+    text-align: center;
+    
+}
+aside{
+    padding: 0;
+    margin: 0;
+}
+aside h5, .textBlog{
+    text-align: center;
+    padding: 0;
+}
+aside h5{
+    font-weight: bold;
+}
+.textBlog{
+    font-family: Courgette;
+    color: var(--grisText1);
+}
+/*------------------End div portfolio---------*/
+.sectionAbout{
+    text-align: center;
+}
+.about{
+    text-align: center;
+}
+.titabout{
+    font-weight: bold;
+    font-size: 35px;
+    padding-bottom: 0;
+}
+.aboutp{
+    color: var(--grisText);
+    font-family: Courgette;
+    padding: 0;
+}
+.texte1, .texte3{
+    position: absolute;
+    text-align: right;
+    left: 230px;
+}
+.padh{
+    position: relative;
+    left: 10px;
+}
+.texte2, .texte4{
+    position: absolute;
+    text-align: left;
+    right: 230px;
+}
+.padl{
+    position: relative;
+    right: 10px;
+}
+.h1{
+    font-weight: bold;
+    font-size: 20px;
+}
+.parag{
+    font-size: 15px;
+}
+.div5{
+    padding-top: 70px;
+    padding-bottom: 100px;
+}
+.div5 img{
+    width: 15%;
+    background-color: var(--gold);
+    border-radius: 50%;
+}
+.div1, .div2, .div3, .div4, .div4{
+    padding-bottom: 70px;
+}
+/*-------------------End sectionAbout---------*/
+.section3{
+    background-color: var(--grisContainer);
+}
+.AmazTitle{
+    text-align: center;
+}
+.AmazTitle h1{
+    font-weight: bold;
+    font-size: 40px;
+    padding-bottom: 0;
+}
+.personne{
+    text-align: center;
+}
+.AmazTitle p{
+    color: var(--grisText1);
+    font-family: Courgette;
+}
+
+#personne img{
+    border: 4px solid var(--blanc);
+    border-radius: 50%;
+}
+.img2{
+    height: 200px;
+}
+#personne h1{
+    font-size: 15px;
+    font-weight: bold;
+    padding: 0;
+    position: relative;
+    text-align: center;
+    right: 50px;
+}
+#personne p{
+    position: relative;
+    left: 80px;
+}
+#personne i{
+    position: relative;
+    left: 30px;
+    border: 2px solid var(--noir);
+    border-radius: 50%;
+    padding: 7px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.textEnd p{
+    text-align: center;
+    color: var(--grisText1);
+}
+/*-----------------End section3---------------*/
+.images{
+    text-align: center;
+    padding: 50px 10px 25px 0;
+}
+#Contact{
+    background-image: url('../Images/ctcimage.png');
+}
+.cont{
+    text-align: center;
+    padding-top: 0;
+    margin-top: 0;
+    position: relative;
+    top: -50px;
+}
+.titCon{
+    color: var(--blanc);
+    padding: 0;
+    font-weight: bold;
+}
+.paraCon{
+    color: var(--blanc);
+    padding: 0;
+    font-family: Courgette;
+}
+form{
+    position: relative;
+    top: -60px;
+}
+button{
+    text-align: center;
+    border: 1px solid var(--gold);
+    border-radius: 7px;
+    background-color: var(--gold);
+    color: var(--blanc);
+    height: 60px;
+    width: 270px;
+    position: relative;
+    left: 500px;
+    font-weight: bold;
+    font-size: 17px;
+}
+button:hover{
+    background-color: var(--blanc);
+    color: var(--gold);
+}
+/*--------------------End section contact--------------------*/
+#copyright{
+    position: relative;
+    left: 150px;
+}
+#copyright i{
+    color: var(--blanc);
+    background-color: var(--noir);
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: 5px;
+    margin-left: 5px;
+    border-radius: 50%;
+}
+/*----------------------------End footer---------------------------*/
